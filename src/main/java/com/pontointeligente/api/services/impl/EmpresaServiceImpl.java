@@ -14,7 +14,7 @@ import com.pontointeligente.api.services.EmpresaService;
 @Service
 public class EmpresaServiceImpl implements EmpresaService {
 	
-	private static final Logger log = LoggerFactory.getLogger(EmpresaServiceTest.class);
+	private static final Logger log = LoggerFactory.getLogger(EmpresaServiceImpl.class);
 	
 	@Autowired
 	private EmpresaRepository empresaRepository;
